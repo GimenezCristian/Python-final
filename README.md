@@ -1,46 +1,45 @@
-# Actividad de Python: Configuración inicial y gestión de entorno
+### Hoy vamos a hacer actividad en Python en un día como programadores:
 
-Este repositorio contiene los pasos iniciales y configuraciones necesarias para comenzar a trabajar en Python de manera organizada y efectiva.
+1. Abrir la terminal de Git Bash o terminal en Linux, debe ser como administrador en Window
 
-## Pasos realizados
+2. Creamos una carpeta o directorio:
 
-1. **Crear directorio y repositorio Git:**
-   ```bash
-   mkdir python-final
-   cd python-final
-   git init
-Crear archivo Python:
+mkdir python-final
+3. Entremos en ella:
 
-bash
-Copiar código
+cd python-final
+4. Iniciamos el repositorio:
+
+git init
+5. Creamos un archivo:
+
 touch finales.py
-Abrir Visual Studio Code:
+6. Abrimos VSC:
 
-bash
-Copiar código
 code .
-Verificar la versión de Python:
+7. En la terminal ingresamos el comando para saber la versión de Python que tenemos instalada:
 
-bash
-Copiar código
 python -V
+
 python3 -V
-Crear y activar entorno virtual:
+8. Creamos el entorno virtual en Python:
 
-bash
-Copiar código
-python3 -m venv venv  # Crear entorno virtual
-source venv/bin/activate  # Activar en Linux
-venv\Scripts\activate  # Activar en Windows
-Actualizar pip:
+python3 -m venv venv #Creamos el entorno virtual
+9. Activamos el entorno virtual:
 
-bash
-Copiar código
-python3 -m pip install --upgrade pip
-¿Qué es pip y por qué lo actualizamos?
-pip es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python. Es fundamental mantenerlo actualizado para asegurarse de tener acceso a las últimas características y correcciones de seguridad en los paquetes Python.
+source venv/bin/activate #Activamos el entorno virtual en Linux
 
-Primer commit y repositorio remoto
-Realiza tu primer commit para este trabajo inicial y enlázalo con un repositorio remoto. Asegúrate de incluir en tu README.md los detalles de todos los comandos ejecutados y la respuesta a la siguiente pregunta:
+venv/scripts/activate #En windows
 
-¿Qué es pip y por qué lo actualizamos?
+<h>10. Hacemos actualización del pip de Python
+```sh
+python3 -m pip install --upgrade pip #Actualizamos el pip
+11. Investigar ¿Qué es el pip y porque lo actualizamos?
+
+12. Hacer al primer commit de este trabajo y unirlo al repositorio remoto.
+
+13. Enviar el enlace del repositorio remoto donde tiene que tener un README.md con todos los detalles de lo que les fui mostrando en comandos, y la respuesta del punto 11 de más arriba.
+
+¿Que es el pip y porque lo actualizamos?
+
+"el pip es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en python"
