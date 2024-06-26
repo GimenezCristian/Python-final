@@ -54,7 +54,7 @@ python3 -m pip install --upgrade pip #Actualizamos el pip
 
 <h>13. Enviar el enlace del repositorio remoto donde tiene que tener un README.md con todos los detalles de lo que les fui mostrando en comandos, y las respuesta del punto 11 de más arriba.
 
-<h>que es el pip y porque lo actualizamos?</h>
+
 
 
 ## ¿Qué es el pip y por qué lo actualizamos?
