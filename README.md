@@ -43,4 +43,10 @@ python3 -m pip install --upgrade pip #Actualizamos el pip
 
 ¿Que es el pip y porque lo actualizamos?
 
-"el pip es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en python"
+PIP es el gestor de paquetes de Python. Permite instalar, actualizar y gestionar bibliotecas y herramientas adicionales desde el repositorio de Python Package Index (PyPI).
+
+Razones para actualizar PIP:
+Compatibilidad: Asegura compatibilidad con las últimas versiones de Python y bibliotecas.
+Seguridad: Incorpora parches de seguridad importantes.
+Corrección de Errores: Soluciona errores presentes en versiones anteriores.
+Nuevas Funcionalidades: Introduce mejoras y nuevas características.
